@@ -12,9 +12,30 @@ body {
   line-height: 1.5;
 }
 
+ul, ol, li {
+  text-decoration: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
 #search-box {
   font: inherit;
   padding: 8px;
   max-width: 320px;
   margin-bottom: 16px;
 }
+
+.flag {
+  margin-right: 10px;
+}
+
+.country {
+  padding-left: 25px;
+  background: linear-gradient(90deg, rgba(149, 149, 149, 0.19457289751838236) 0%, rgba(255, 255, 255, 0) 49%);
+}
+
+.card {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  }
